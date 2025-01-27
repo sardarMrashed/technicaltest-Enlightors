@@ -54,7 +54,7 @@ const NavIcons = () => {
          onClick={() => setIsOpenCart((prev) => !prev)}
           />
        
-           <div className="absolute -top-2 -right-2">0</div>
+           <div className="absolute -top-2 -right-4 w-6 h-6 bg-lama rounded-full text-white text-sm flex justify-center items-center">2</div>
 </div>
       {
         isOpenCart &&<CartModal /> 

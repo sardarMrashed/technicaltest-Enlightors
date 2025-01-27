@@ -25,7 +25,7 @@ const Menu = () => {
       <Link href="/details">Details</Link>
       <Link href="/about">About</Link> {/* Corrected "link" to "Link" */}
       <Link href="/logout">LogOut</Link>
-      <Link href="/cart">Cart(1)</Link>
+      <Link href="/contact">contact</Link>
     </div>
   )
 }
