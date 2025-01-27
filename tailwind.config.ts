@@ -9,10 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        lama:"#F35C7A",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
     },
+
   },
   plugins: [],
 } satisfies Config;

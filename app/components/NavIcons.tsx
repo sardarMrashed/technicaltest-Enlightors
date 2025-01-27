@@ -53,8 +53,8 @@ const NavIcons = () => {
          className="cursor-pointer"
          onClick={() => setIsOpenCart((prev) => !prev)}
           />
-            {/* Cart count */}
-           
+       
+           <div className="absolute -top-2 -right-2">0</div>
 </div>
       {
         isOpenCart &&<CartModal /> 
