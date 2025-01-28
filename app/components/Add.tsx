@@ -1,6 +1,6 @@
 import { useState } from "react"
 const Add = () => {
-  const [quantity, setQuantity]=useSata(1)
+  const [quantity, setQuantity] = useState(1)
   return (
     <div className="flex flex-col gap-4">
       <h4 className="font-medium">Choose a Quantity</h4>
