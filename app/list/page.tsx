@@ -1,5 +1,6 @@
 
 import Image from "next/image";
+import Filter from "../components/Filter";
 
 
 const ListPage = () => {
@@ -23,7 +24,7 @@ const ListPage = () => {
         </div> 
       </div>
       {/* FILTER */}
-   
+   <Filter />
       {/* PRODUCTS */}
       <h1 className="mt-12 text-xl font-semibold">For You!</h1>
 
