@@ -14,7 +14,7 @@ const CartModal = () => {
       </div>
     ) : (
       <div className="flex justify-between items-center">
-        <Image src="https://pixabay.com/photos/building-skyscraper-9340309/"
+        <Image src="https://cdn.pixabay.com/photo/2016/11/22/22/39/golf-1850984_1280.jpg"
            alt="cart" 
            width={72}
             height={96} 
