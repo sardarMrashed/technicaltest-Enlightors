@@ -9,40 +9,28 @@ const Footer = () => {
         {/* LEFT */}
         <div className="w-full md:w-1/2 lg:w-1/4 flex flex-col gap-8">
           <Link href="/">
-            <div className="text-2xl tracking-wide"><svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
-
-  <rect width="100%" height="100%" fill="white"/>
-  
-
-  <rect x="20" y="40" width="30" height="120" fill="gold"/>
-
-  <circle cx="80" cy="50" r="20" fill="gold"/>
-  <circle cx="120" cy="50" r="20" fill="gold"/>
-  
-  <circle cx="80" cy="90" r="20" fill="gold"/>
-  <circle cx="120" cy="90" r="20" fill="gold"/>
-  
-  <circle cx="80" cy="130" r="20" fill="gold"/>
-  <circle cx="120" cy="130" r="20" fill="gold"/>
-  
-
-  <text x="40" y="180" font-family="Arial" font-size="20" fill="gold" font-weight="bold">ENLIGHTORS</text>
-</svg>
-
-            </div>
+            <div className="text-2xl tracking-wide">Enlightors</div>
           </Link>
-          <p>
-            3252 Winding Way, Central Plaza, Willowbrook, CA 90210, United
-            States
+          <p>MRF 5D Towers, Floor 03, OFC. 07
+          Erbil, Kurdistan Region, Iraq
           </p>
-          <span className="font-semibold">hello@lama.dev</span>
-          <span className="font-semibold">+1 234 567 890</span>
+          <span className="font-semibold">info@enlightors.com</span>
+          <span className="font-semibold">+964 751 504 0880</span>
           <div className="flex gap-6">
-            <Image src="/facebook.png" alt="" width={16} height={16} />
-            <Image src="/instagram.png" alt="" width={16} height={16} />
-            <Image src="/youtube.png" alt="" width={16} height={16} />
-            <Image src="/pinterest.png" alt="" width={16} height={16} />
-            <Image src="/x.png" alt="" width={16} height={16} />
+          <a href="https://www.facebook.com/enlightors" target="_blank" rel="noopener noreferrer">
+  <Image src="/facebook.png" alt="Facebook" width={16} height={16} />
+</a>
+<a href="https://www.instagram.com/enlightors/" target="_blank" rel="noopener noreferrer">
+  <Image src="/instagram.png" alt="Instagram" width={16} height={16} />
+</a>
+<a href="https://www.youtube.com/@enlightors/videos" target="_blank" rel="noopener noreferrer">
+  <Image src="/youtube.png" alt="YouTube" width={16} height={16} />
+</a>
+<a href="https://x.com/i/flow/login?redirect_after_login=%2FEnlightors" target="_blank" rel="noopener noreferrer">
+  <Image src="/x.png" alt="X" width={16} height={16} />
+</a>
+
+
           </div>
         </div>
         {/* CENTER */}
@@ -105,11 +93,12 @@ const Footer = () => {
       </div>
       {/* BOTTOM */}
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mt-16">
-        <div className="">© 2024 Lama Shop</div>
+        <div className="">Be Visible.
+        © 2024 Enlightors. All Rights Reserved.</div>
         <div className="flex flex-col gap-8 md:flex-row">
           <div className="">
             <span className="text-gray-500 mr-4">Language</span>
-            <span className="font-medium">United States | English</span>
+            <span className="font-medium">Kurdish |Arabic| English</span>
           </div>
           <div className="">
             <span className="text-gray-500 mr-4">Currency</span>
