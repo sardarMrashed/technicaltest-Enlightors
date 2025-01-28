@@ -1,7 +1,7 @@
 
 const SinglePage = () => {
   return (
-    <div>SinglePage</div>
+    <div></div>
   )
 }
 
