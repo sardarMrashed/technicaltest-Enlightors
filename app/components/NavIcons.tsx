@@ -32,7 +32,7 @@ const NavIcons = () => {
           onClick={handleProfile}
         />
         {isOpenProfile && (
-          <div className="absolute top-12 right-0 bg-white p-4 w-40 rounded-md shadow-lg z-50">
+          <div className="absolute p-4 rounded-md top-12 left-0 bg-white text-sm shadow-[0_3px_10px_rgb(0,0,0,0.2)] z-20">
             <Link href="/profile" className="block text-gray-700 hover:underline">
               Profile
             </Link>
@@ -46,16 +46,12 @@ const NavIcons = () => {
         )}
       </div>
 
+      {/* Notification Icon */}
+      <Image src="/notification.png" alt="notification" width={22} height={22} className="cursor-pointer" />
+
       {/* Cart Icon */}
-      <div className="relative">
-        <Image
-          src="/cart.png"
-          alt="cart"
-          width={24}
-          height={24}
-          className="cursor-pointer"
-          onClick={() => setIsOpenCart((prev) => !prev)}
-        />
+      <div className="relative cursor-pointer" onClick={() => setIsOpenCart((prev) => !prev)}>
+        <Image src="/cart.png" alt="cart" width={24} height={24} />
         <div className="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 w-5 h-5 bg-red-500 rounded-full text-white text-xs flex justify-center items-center">
           2
         </div>
@@ -63,7 +59,7 @@ const NavIcons = () => {
 
       {/* Cart Modal */}
       {isOpenCart && (
-        <div className="absolute top-14 right-0 bg-white shadow-lg p-4 w-64 rounded-md z-50">
+        <div className="absolute top-12 right-0 bg-white shadow-lg p-4 w-64 rounded-md z-[100]">
           <CartModal />
         </div>
       )}

@@ -7,7 +7,7 @@ const CartModal = () => {
   const cartItems = true;
 
   return (
-    <div className=" w-max absolute p-4 rounded-md shadow-[0px_3px_10px_rgba(0,0,0,0.2)] bg-white top-12 right-0 flex flex-col gap-4 ">CartModal
+    <div className="w-max absolute p-4 rounded-md shadow-[0px_3px_10px_rgba(0,0,0,0.2)] bg-white top-12 right-0 flex flex-col gap-4 ">CartModal
     {!cartItems ? ( 
       <div className="flex justify-between items-center">
         <div className="text-lg">Cart is empty</div>
