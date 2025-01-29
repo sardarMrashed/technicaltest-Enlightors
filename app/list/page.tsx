@@ -26,7 +26,7 @@ const ListPage = () => {
       {/* FILTER */}
    <Filter />
       {/* PRODUCTS */}
-      <h1 className="mt-12 text-xl font-semibold">For You!</h1>
+      {/* <h1 className="mt-12 text-xl font-semibold">For You!</h1> */}
 
    
       
