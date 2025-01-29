@@ -1,10 +1,9 @@
 import ProductImage from "../components/ProductImage";
 import Customize from "../components/Customize";
 import Add from "../components/Add";
-import { useState } from "react";
+
 
 const SinglePage = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
 
   const additionalInfo = [
     { title: "Title 1", content: "Detailed information about Title 1..." },
@@ -47,9 +46,9 @@ const SinglePage = () => {
               
             >
               {item.title}
-              <span>{expandedIndex === index ? "▲" : "▼"}</span>
+             
             </button>
-            {expandedIndex === index && <p className="mt-2 text-gray-600">{item.content}</p>}
+
           </div>
         ))}
       </div>
