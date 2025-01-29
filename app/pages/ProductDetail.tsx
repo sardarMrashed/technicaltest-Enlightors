@@ -3,7 +3,7 @@ import Customize from "../components/Customize";
 import Add from "../components/Add";
 
 
-const SinglePage = () => {
+const ProductDetail = () => {
 
   const additionalInfo = [
     { title: "Title 1", content: "Detailed information about Title 1..." },
@@ -41,6 +41,7 @@ const SinglePage = () => {
         {/* Additional Information - Expandable */}
         {additionalInfo.map((item, index) => (
           <div key={index} className="text-sm border-b pb-4">
+            <a href='/product-details'>
             <button
               className="w-full text-left text-lg font-medium flex justify-between items-center"
               
@@ -48,6 +49,7 @@ const SinglePage = () => {
               {item.title}
              
             </button>
+            </a>
 
           </div>
         ))}
@@ -56,4 +58,4 @@ const SinglePage = () => {
   );
 };
 
-export default SinglePage;
+export default ProductDetail;

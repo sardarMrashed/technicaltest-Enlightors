@@ -64,9 +64,11 @@ const ProductList = () => {
         <p className="text-sm text-gray-500">Product description</p>
         <div className="flex items-center gap-2">
           <span className="font-medium">Quantity: 1</span>
+          <a href='/ProductDetail'>
           <button className="rounded-2xl ring-1 ring-lama text-lama w-max py-2 px-4 text-xs hover:bg-lama hover:text-white">
             Add to Cart
           </button>
+          </a>
         </div>
 
   
