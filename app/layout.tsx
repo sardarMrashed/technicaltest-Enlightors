@@ -26,7 +26,7 @@ export default function RootLayout({
         <Navbar />
         <ListPage />
 
-        <SinglePage />
+        {/* <SinglePage /> */}
          {children}
         <Footer />
            

@@ -3,7 +3,7 @@ import Customize from "../components/Customize";
 import Add from "../components/Add";
 
 
-const ProductDetail = () => {
+const Detail = () => {
 
   const additionalInfo = [
     { title: "Title 1", content: "Detailed information about Title 1..." },
@@ -41,7 +41,6 @@ const ProductDetail = () => {
         {/* Additional Information - Expandable */}
         {additionalInfo.map((item, index) => (
           <div key={index} className="text-sm border-b pb-4">
-            <a href='/product-details'>
             <button
               className="w-full text-left text-lg font-medium flex justify-between items-center"
               
@@ -49,7 +48,6 @@ const ProductDetail = () => {
               {item.title}
              
             </button>
-            </a>
 
           </div>
         ))}
@@ -58,4 +56,4 @@ const ProductDetail = () => {
   );
 };
 
-export default ProductDetail;
+export default Detail;
