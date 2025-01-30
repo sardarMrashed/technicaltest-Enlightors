@@ -1,9 +1,9 @@
-import ProductImage from "../components/ProductImage";
-import Customize from "../components/Customize";
-import Add from "../components/Add";
+import ProductImage from "@/app/components/ProductImage";
+import Customize from "@/app/components/Customize";
+import Add from "@/app/components/Add";
 
 
-const SinglePage = () => {
+const Detail = () => {
 
   const additionalInfo = [
     { title: "Title 1", content: "Detailed information about Title 1..." },
@@ -43,12 +43,9 @@ const SinglePage = () => {
           <div key={index} className="text-sm border-b pb-4">
             <button
               className="w-full text-left text-lg font-medium flex justify-between items-center"
-              
             >
               {item.title}
-             
             </button>
-
           </div>
         ))}
       </div>
@@ -56,4 +53,4 @@ const SinglePage = () => {
   );
 };
 
-export default SinglePage;
+export default Detail;

@@ -1,9 +1,9 @@
-import ProductImage from "../components/ProductImage";
-import Customize from "../components/Customize";
-import Add from "../components/Add";
+import ProductImage from "../../../components/ProductImage";
+import Customize from "../../../components/Customize";
+import Add from "../../../components/Add";
 
 
-const Detail = () => {
+const SinglePage = () => {
 
   const additionalInfo = [
     { title: "Title 1", content: "Detailed information about Title 1..." },
@@ -56,4 +56,4 @@ const Detail = () => {
   );
 };
 
-export default Detail;
+export default SinglePage;

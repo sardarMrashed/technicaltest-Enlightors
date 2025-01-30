@@ -59,9 +59,7 @@ const NavIcons = () => {
 
       {/* Cart Modal */}
       {isOpenCart && (
-        <div className="absolute top-12 right-0 bg-white shadow-lg p-4 w-64 rounded-md z-[100]">
-          <CartModal />
-        </div>
+        <CartModal /> 
       )}
     </div>
   );

@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/footer";
-import SinglePage from "./[slug]/SinglePage";
-import ListPage from "./list/page";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -24,10 +22,8 @@ export default function RootLayout({
       <body className={inter.className}>
    
         <Navbar />
-        <ListPage />
 
-        {/* <SinglePage /> */}
-         {children}
+        {children}
         <Footer />
            
  
