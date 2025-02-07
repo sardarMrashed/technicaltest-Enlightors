@@ -1,5 +1,5 @@
-import { AppProps } from 'next/app'
-import Layout from '@/app/components/Layout'
+import { AppProps } from "next/app";
+import Layout from "@/app/components/Layout";
 
 // TypeScript version of the component
 export default function MyApp({ Component, pageProps }: AppProps) {
@@ -7,5 +7,5 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <Layout>
       <Component {...pageProps} />
     </Layout>
-  )
+  );
 }
